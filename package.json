@@ -1,0 +1,23 @@
+{
+  "name": "railway-gateway",
+  "version": "1.0.0",
+  "description": "Proxy Gateway for Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["proxy", "gateway", "railway"],
+  "author": "Kuncung",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
